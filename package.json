@@ -23,7 +23,8 @@
     "tutorial": "cd ./resources/tutorial && zip -FS -r ../../src/renderer/template/dist/tutorial.zip . -x '*.DS_Store'",
     "monaco": "webpack --config ./webpack.monaco.js",
     "dev": "electron-webpack dev",
-    "prod": "npm run compile && CSC_IDENTITY_AUTO_DISCOVERY=false electron-builder --mac dir && open releases/mac/*.app"
+    "prod": "npm run compile && CSC_IDENTITY_AUTO_DISCOVERY=false electron-builder --mac dir && open releases/mac/*.app",
+    "publish": "build --mac --win -p always"
   },
   "electronWebpack": {
     "staticSourceDirectory": "src/renderer/template/dist",
@@ -108,7 +109,6 @@
     "publish": {
       "provider": "github",
       "owner": "tommywo",
-      "releaseType": "release",
       "publishAutoUpdate": true
     }
   },
