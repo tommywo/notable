@@ -143,7 +143,7 @@ const Monaco = {
         precondition: EditorContextKeys.writable,
         kbOpts: {
           kbExpr: EditorContextKeys.editorTextFocus,
-          primary: monaco.KeyMod.Alt | monaco.KeyCode.KEY_Z,
+          primary: monaco.KeyMod.Alt | monaco.KeyCode.KEY_Q,
           weight: 100
         }
       },
