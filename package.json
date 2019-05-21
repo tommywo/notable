@@ -2,7 +2,7 @@
   "name": "notable",
   "productName": "Notable",
   "description": "The markdown-based note-taking app that doesn't suck.",
-  "version": "1.5.1",
+  "version": "1.5.1-PL",
   "scripts": {
     "clean:deps": "npx del 'node_modules/**/{README,LICENSE,license,.travis.yml,tsconfig.json,*.{md,MD,map,png,ts}}' 'node_modules/monaco-editor/{dev,min}' '!node_modules/**/*.d.ts'",
     "clean:dist": "npx del dist",
@@ -107,7 +107,7 @@
     },
     "publish": {
       "provider": "github",
-      "owner": "notable",
+      "owner": "tommywo",
       "releaseType": "release",
       "publishAutoUpdate": true
     }
@@ -117,19 +117,19 @@
     "name": "Fabio Spampinato",
     "email": "spampinabio@gmail.com"
   },
-  "homepage": "https://github.com/notable/notable",
+  "homepage": "https://github.com/tommywo/notable",
   "repository": {
     "type": "git",
-    "url": "https://github.com/notable/notable.git"
+    "url": "https://github.com/tommywo/notable.git"
   },
   "bugs": {
-    "url": "https://github.com/notable/notable/issues"
+    "url": "https://github.com/tommywo/notable/issues"
   },
   "tutorial": {
-    "url": "https://github.com/notable/notable/tree/master/resources/tutorial/notes"
+    "url": "https://github.com/tommywo/notable/tree/master/resources/tutorial/notes"
   },
   "download": {
-    "url": "https://github.com/notable/notable/releases"
+    "url": "https://github.com/tommywo/notable/releases"
   },
   "keywords": [
     "note",
