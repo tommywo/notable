@@ -1,4 +1,8 @@
-# Notable ([DOWNLOAD](https://github.com/notable/notable/releases))
+# Notable PL ([DOWNLOAD](https://github.com/tommywo/notable/releases))
+
+This is a fork of notable with one simple change - word wrapping shortcut changed from <kbd>ALT</kbd>+<kbd>Z</kbd> to <kbd>ALT</kbd>+<kbd>Q</kbd>, so it doesn't overlap with polish `ż` letter.
+
+There will be no need for a fork when https://github.com/notable/notable/issues/477 is implemented.
 
 <p align="center">
   <img src="resources/demo/main.png" alt="Notable" width="750">
